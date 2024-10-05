@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kevfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        {% load static %}
+		<link rel="stylesheet" type="text/css" href=" {% static 'css/main.css' %} ">
+        <script src="https://kit.fontawesome.com/1a1be9a9a3.js" crossorigin="anonymous"></script>
+
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main"> 
+
+				<!-- Header middle section -->
+					<header id="header">
+						<h1>Kevinsüwu</h1>
+						<p>Web Developer &nbsp;&bull;&nbsp; 2+ year &nbsp;&nbsp;</p>
+						<p>Aspiring Cloud Engineer &nbsp;&bull;&nbsp; 1+ year &nbsp;&nbsp;</p>
+						<nav>
+							<ul>
+								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+
+							</ul>
+						</nav>
+					</header>
+
+
+						<!-- LEFT Arrow for sliding content -->
+					<div id="right-arrow" class= "arrow">
+						<i class="fas fa-arrow-right"></i>
+					</div>
+					<!-- RIGHT Section (Hidden Initially) -->
+					<div id="right-section" class = "section">
+						<!-- Introduction Section -->
+						<section id="introduction">
+							<h2>Welcome to Kevfolio</h2>
+							<p>
+								I am Kevin, a web developer and an aspiring cloud engineer with over a year of experience. I have been honing my skills in cloud infrastructure, AWS, and data privacy. Below, you can explore some of the projects I've been working on. Each project showcases a different aspect of my skills, from cloud solutions to privacy-focused tools.
+							</p>
+						</section>
+
+						<!-- 2x2 Project Grid -->
+						<section id="projects">
+							<div class="project-box">
+								<a href="link_to_project_1" target="_blank">
+									<div class="project-thumbnail" style="background-image: url('link_to_thumbnail_1.jpg');"></div>
+									<div class="project-description">
+										<p>Project 1: Cloud Automation Tool</p>
+									</div>
+								</a>
+							</div>
+							<div class="project-box">
+								<a href="link_to_project_2" target="_blank">
+									<div class="project-thumbnail" style="background-image: url('link_to_thumbnail_2.jpg');"></div>
+									<div class="project-description">
+										<p>Project 2: Data Privacy Dashboard</p>
+									</div>
+								</a>
+							</div>
+							
+						</section>
+					</div> 
+
+					<!-- LEFT Section is Blog Section(Hidden Initially) -->
+					<div id="left-section" class = "section">
+						<!-- Introduction Section -->
+						<section id="introduction">
+							<h2>Blog</h2>
+							<p>
+								This is my blog post. It's where I essentially document my progress and knowledge. I'm more happy to share my learnings and understanding of cloud infrastructure and cybersecurity.
+							</p>
+						</section>
+						<section class = "articles">
+							<div class="article-box">
+								<div class = "content">
+									<h2>Building Architecture Diagram</h2>
+									<p>
+										This is my blog post. It's where I essentially document my progress and knowledge. I'm more happy to share my learnings and understanding of cloud infrastructure and cybersecurity.
+									</p>	
+								</div>
+
+							</div>	
+						</section>
+
+
+						
+					</div> 
+
+					<!-- LEFT Arrow for sliding content -->	
+					<div id="left-arrow" class = "arrow">
+						<i class="fas fa-arrow-left"></i>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Copyright</span>
+					</footer>
+
+			</div>
+		</div>
+		<script src="{% static 'js/main.js' %}"></script>
+	</body>
+</html>
