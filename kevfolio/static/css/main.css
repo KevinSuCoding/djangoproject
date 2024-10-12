@@ -1273,7 +1273,7 @@ input, select, textarea {
 /* Styling for 2x2 Project Grid */
 #projects {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 20px;
 	padding: 50px 20px;
 	background-color: #fff;
